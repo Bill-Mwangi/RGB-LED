@@ -1,0 +1,5 @@
+RGB LED
+
+The RGB LEd has four pins with each going to the corresponding colour leds: red, green and blue with the fourth(longer) pin is the common ground of the leds in the case of a common cathode. The longer pin can also be connected to the 5v of the arduino in the case the LED is of a common anode.
+You can try out the both connections to see which works.
+The three pins corresponding to the three colours are connected to the digital out terminal with PWM through 220 Ohm resistors. The PWM pins enable varying the intensity of the signal to come up with the different colours.
